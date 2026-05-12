@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quadras_Android">
         <activity
+            android:name=".ActivityConfirmaReserva"
+            android:exported="false" />
+        <activity
+            android:name=".agendarHorario"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_seleciona_espaco"
+            android:exported="false" />
+        <activity
             android:name=".ActivitySelecionarQuadra"
             android:exported="false" />
         <activity
